@@ -8,22 +8,7 @@ import base64
 # Example image URL or path
 image_url = "https://img.freepik.com/premium-vector/dragon-logo-icon-design-illustration_586739-384.jpg"  # Replace with your image URL or local path
 # Inject custom CSS for the background color
-st.markdown("""
-    <style>
-        /* Apply background color to the main content area */
-        .css-1d391kg {
-            background-color: white;
-        }
-        /* Apply background color to the sidebar */
-        .css-1d391kg:nth-child(2) {
-            background-color: white;
-        }
-        /* Optional: Change text color for contrast */
-        .css-1y4p1t1, .css-1cm7oa0, .css-1s6ln3p {
-            color: black;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 # Custom HTML with text and image
 html_content = """
