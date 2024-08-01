@@ -40,7 +40,7 @@ st.markdown(html_content, unsafe_allow_html=True)
 st.header("Dragon04 :blue[Hospital Prediction Prototype]", divider=True)
 # Load your data
 st.markdown(':grey[This code will be printed')
-data = pd.read_csv('merge-csv.com__66a893addc3d0[1].csv')  # Replace with your actual data source
+data = pd.read_csv('merge.csv')  # Replace with your actual data source
 data.dropna(inplace=True)
 # Create a Folium map
 m = folium.Map(location=[data['lat'].mean(), data['lon'].mean()], zoom_start=10)
