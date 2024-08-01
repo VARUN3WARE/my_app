@@ -44,7 +44,7 @@ data = pd.read_csv('merge.csv')  # Replace with your actual data source
 data.dropna(inplace=True)
 # Create a Folium map
 m = folium.Map(location=[data['lat'].mean(), data['lon'].mean()], zoom_start=10)
-image_path = 'WhatsApp Image 2024-07-31 at 09.40.50_257fb7f3.jpg'  # Replace with your image file path
+image_path = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fdragon-logo-icon-design-illustration_34736272.htm&psig=AOvVaw0f-nbBfGRQELq82IIMbmay&ust=1722602318682000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLC1wOzn04cDFQAAAAAdAAAAABAE'  # Replace with your image file path
 
 # Read the image and encode it in base64
 with open(image_path, "rb") as image_file:
